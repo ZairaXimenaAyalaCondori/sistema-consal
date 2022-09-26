@@ -14,6 +14,7 @@ body {
     font-size: 14px;
     line-height: 25px;
     font-family: 'Raleway', sans-serif;
+    oveflow-x: hidden;
 }
 
 h2 {
@@ -170,7 +171,6 @@ fieldset {
     z-index: 99999;
     width: 100%;
     height: 100%;
-    overflow: visible;
     /*background-image: url(../img/preloader.gif);*/
     background-position: center center;
     background-repeat: no-repeat;
@@ -197,3 +197,4 @@ img {
 i.fa {
     color: #77be2d;
 }
+
