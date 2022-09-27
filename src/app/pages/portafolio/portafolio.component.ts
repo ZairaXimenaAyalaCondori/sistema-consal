@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Colaborador } from 'src/app/entities/colaborador';
+import { PortafolioService } from 'src/app/services/portafolio/portafolio.service';
 
 @Component({
   selector: 'app-portafolio',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortafolioComponent implements OnInit {
 
-  constructor() { }
+  listaColaboradores: Colaborador[] | undefined;
+
+  constructor(private portafolioService: PortafolioService) { }
 
   ngOnInit(): void {
+    this.portafolioService.portafolioSelect().subscribe(
+      (res) => {
+        //console.log(res);
+        this.listaColaboradores = JSON.parse(JSON.stringify(res));
+      }
+    )
   }
 
 }

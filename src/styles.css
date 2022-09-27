@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
 html,
 body {
     height: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
 }
 
 body {
@@ -14,7 +17,6 @@ body {
     font-size: 14px;
     line-height: 25px;
     font-family: 'Raleway', sans-serif;
-    oveflow-x: hidden;
 }
 
 h2 {
@@ -29,9 +31,6 @@ h3 {
     line-height: 25px;
 }
 
-p{
-    
-}
 
 a {
     color: #77be2d;
@@ -171,6 +170,7 @@ fieldset {
     z-index: 99999;
     width: 100%;
     height: 100%;
+    overflow: visible;
     /*background-image: url(../img/preloader.gif);*/
     background-position: center center;
     background-repeat: no-repeat;
@@ -198,3 +198,28 @@ i.fa {
     color: #77be2d;
 }
 
+.page-title {
+    background-color: #777777;
+    position: relative;
+    padding: 50px 0;
+    margin: 0;
+}
+
+.page-title h2{
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.page-title ul li{
+    display: inline-block;
+    margin-right: 15px;
+    position: relative;
+    color: #ffffff;
+    line-height: 36px;
+    font-size: 15px;
+    font-weight: 600;
+}

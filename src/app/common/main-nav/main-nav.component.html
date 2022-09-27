@@ -10,25 +10,19 @@
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link" href="#about">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link" href="#service">Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Portfolios</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Blog
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" >Single Blog Post</a></li>
-            
-          </ul>
+          <a class="nav-link" [routerLink]="['/portafolio']">Portfolios</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact us</a>
+          <a class="nav-link" href="#blog">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/contacto']">Contact Us</a>
         </li>
       </ul>
     </div>

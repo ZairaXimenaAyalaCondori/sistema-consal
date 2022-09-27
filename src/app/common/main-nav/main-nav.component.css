@@ -80,6 +80,7 @@
     margin-top: 8px;
 }
 
+
 .sticky-menu .navbar-brand img {
     width: 90%;
     margin: 2% 0;
@@ -120,7 +121,6 @@
 #not-active:hover{
     color: #77be2d;
 }
-
 .ms-auto{
     margin-right: 400px ;
 }

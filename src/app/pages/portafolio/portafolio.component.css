@@ -1,0 +1,14 @@
+.table>:not(caption)>*>*{
+    border-right: .01rem solid #77be2d;
+    padding: .5rem;
+    border-bottom: .01rem solid #77be2d;
+}
+.table{
+    line-height: 20px;
+    font-size: 15px;
+    vertical-align: middle;
+    --bs-table-striped-bg: #78be2d21;
+}
+.table>:not(:first-child){
+    border-top: none;
+}

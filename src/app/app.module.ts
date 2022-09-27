@@ -17,6 +17,7 @@ import { PartnersComponent } from './home/partners/partners.component';
 import { CopyComponent } from './common/copy/copy.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { PortafolioComponent } from './pages/portafolio/portafolio.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { PortafolioComponent } from './pages/portafolio/portafolio.component';
     PartnersComponent,
     CopyComponent,
     ContactoComponent,
-    PortafolioComponent
+    PortafolioComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
