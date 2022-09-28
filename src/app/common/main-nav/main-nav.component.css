@@ -1,42 +1,6 @@
-.top-bar {
-    height: 50px;
-    line-height: 50px;
-    background: #555;
-    color: #fff;
-    font-size: 14px;
-}
-.tcontact{
-    float: left;
-}
-.tcontact ul,.tsocial ul{
-   margin: 0;
-   padding: 0;
-   list-style-type: none;
-}
-.tcontact ul li{
-    display: inline-block;
-}
-.tcontact ul li i.fa{
-    margin-right: 10px;
-}
-.tcontact ul li a{
-    color: #fff;
-    margin-right: 15px;
-}
-.tcontact ul li a:hover{
-    color: #77be2d;
-}
-.tsocial{
-    float: right;
-}
-.tsocial ul li{
-   display: inline-block;
-}
-.tsocial ul li i.fa{
-    margin-left: 10px;
-}
-.tsocial ul li i.fa:hover{
-    color: #fff;
+.navbar .container-fluid{
+    padding-right: 0;
+    padding-left: 0;
 }
 .menu-holder {
     height: 70px;
@@ -73,7 +37,6 @@
 .navbar {
     margin-bottom: 0;
     border: 0px;
-    margin-top: 13px;
 }
 
 .sticky-menu .navbar {
@@ -122,8 +85,8 @@
     color: #77be2d;
 }
 .ms-auto{
-    margin-right: 400px ;
+    margin-right: 10rem ;
 }
 .navbar-brand{
-    margin-left: 300px;
+    margin-left: 10rem;
 }

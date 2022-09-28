@@ -12,7 +12,7 @@
     line-height: 24px;
     font-size: 20px;
     padding-left: 20px;
-    padding-top: 10px;
+    padding-top: 35px;
 }
 .pic-single-service h3:hover{
     cursor: pointer;
@@ -23,5 +23,5 @@
     line-height: 25px;
     padding-left: 20px;
     padding-bottom: 20px;
-    
+    padding-right: 20px;
 }

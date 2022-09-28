@@ -14,23 +14,28 @@
     background: #77be2d;
 }
 
-
- .carousel-control.right,
- .carousel-control.left {
-    background-image: none;
-}
-
 .carousel-caption{
-    margin-bottom: 200px;
-
+    top: 15%;
+    bottom: 0;
 }
 
 #carouselExampleCaptions img:hover  {
     background: #77be2d;
 }
 
-#carouselExampleCaptions button.active {
-    margin: 0 10px;
+.buttons{
+    margin-bottom: 2rem;
+}
+
+.carousel-indicators [data-bs-target]{
+    border-top: 0;
+    border-bottom: 0;
+    opacity: 1;
+}
+
+#carouselExampleCaptions button {
+    height: 13px;
+    width: 13px;
 }
 
 .carousel-control {
@@ -39,7 +44,7 @@
 }
 
 #slider .item {
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -54,12 +59,13 @@
     background: rgba(0,0,0,0.3);
 }
 
-
 .carousel-inner img{
-    filter: brightness(50%);
+    filter: contrast(50%);
 }
 
-
+.carousel-inner{
+    height: 550px;
+}
 #carouselExampleCaptions h5 {
     color: inherit;
     font-size: 50px;
