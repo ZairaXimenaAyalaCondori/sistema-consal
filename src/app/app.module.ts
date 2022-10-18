@@ -18,6 +18,8 @@ import { CopyComponent } from './common/copy/copy.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 import { HomeComponent } from './pages/home/home.component';
+import { TeamComponent } from './pages/team/team.component';
+import { GanadoresComponent } from './home/ganadores/ganadores.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +39,8 @@ import { HomeComponent } from './pages/home/home.component';
     ContactoComponent,
     PortafolioComponent,
     HomeComponent,
+    TeamComponent,
+    GanadoresComponent,
   ],
   imports: [
     BrowserModule,

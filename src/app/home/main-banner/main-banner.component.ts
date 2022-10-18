@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Ganador } from 'src/app/entities/ganador';
+import { GanadoresService } from 'src/app/services/ganadores.service';
 
 @Component({
   selector: 'app-main-banner',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainBannerComponent implements OnInit {
 
-  constructor() { }
+  listaGanadores: Ganador[] | undefined;
+
+  constructor(private ganadoresService: GanadoresService) { }
 
   ngOnInit(): void {
+    this.ganadoresService.ganadoresSelect().subscribe(
+      (res) => {
+        //console.log(res);
+        this.listaGanadores = JSON.parse(JSON.stringify(res));
+      }
+    )
   }
 
 }

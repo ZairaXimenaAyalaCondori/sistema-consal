@@ -226,3 +226,19 @@ i.fa {
     font-size: 15px;
     font-weight: 600;
 }
+
+.member-social a{
+    position: relative;
+    margin: 10px 0px;
+}
+
+.member-social i.fa {
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    color: #77be2d;
+}

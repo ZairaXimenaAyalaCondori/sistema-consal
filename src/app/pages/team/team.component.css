@@ -1,0 +1,22 @@
+.card-title{
+    color: #77be2d;
+}
+
+.fw-semibold:hover{
+    color: #77be2d;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.fw-semibold, .fst-italic{
+    margin-bottom: .5rem;
+}
+
+.works{
+    background-color: #f5f5f5;
+}
+
+.card{
+    --bs-card-border-width: 0px;
+    --bs-card-inner-border-radius: 0px;
+}

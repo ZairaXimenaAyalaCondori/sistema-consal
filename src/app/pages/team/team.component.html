@@ -1,0 +1,42 @@
+<section class="page-title section-big">
+  <div class="container">
+    <h2>TEAM</h2>
+    <ul class="d-flex">
+      <li><a href="index.html">Home</a></li>
+      <li> > </li>
+      <li>Team</li>
+    </ul>
+  </div>
+</section>
+
+<section class="works section-big">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="section-title">
+          <h2>Nuestro <span>team</span></h2>
+          <p>Aqui presentamos a nuestro equipo de trabajo para el desarrollo y mantenimiento de nuestra página. Si quieres ser parte no dudes en enviarnos un correo electrónico.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row row-cols-1 row-cols-md-3 g-4 container mx-auto">
+    <div class="col" *ngFor="let item of listaTeam">
+      <div class="card text-center">
+        <img src="https://serviciozaira.000webhostapp.com/fotos/{{item.foto}}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title text-uppercase fs-5">{{item.nombresapellidos}}</h4>
+          <p class="fs-6 fst-italic">{{item.cargo}}</p>
+          <p class="fs-6 fw-semibold">{{item.email}}</p>
+          <div class="member-social">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-pinterest"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-google-plus"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
